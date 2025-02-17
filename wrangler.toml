@@ -4,3 +4,11 @@ compatibility_date = "2025-02-14"
 
 [observability]
 enabled = true
+
+[[kv_namespaces]]
+binding = "KV_NAMESPACE_BINDING"
+id = "<kv-namespace-id>"
+
+[vars]
+DEFAULT_URL = "<default-redirect-url>"
+HTML_REDIRECT = true
