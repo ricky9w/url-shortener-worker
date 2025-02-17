@@ -113,6 +113,14 @@ Accessing `your-worker-domain.com` (visit the root URL) will redirect you to the
 - **Default URL**: Change the `DEFAULT_URL` environment variable to set a different default redirection target.
 - **Short Path Length**: Adjust the length of random short paths by modifying the `generateRandomString` function (defaults to `6`).
 
+## License
+
+[MIT](./LICENSE)
+
+## Disclaimer
+
+**This project does not provide a public URL shortening service.** All code in this project is open source and provided for informational and educational purposes. Use it at your own risk. The author(s) are not responsible for any consequences resulting from the user or misuse of the code by any person or entity.
+
 ## Reference
 
 [Redirections in HTTP - HTTP | MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Redirections)
