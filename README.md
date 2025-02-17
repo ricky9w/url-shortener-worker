@@ -59,6 +59,8 @@ HTML_REDIRECT = true # Optional: Set to true for HTML redirect, remove or set to
 
 **Warning**: It's recommended to configure `kv_namespaces`, `DEFAULT_URL` and `HTML_REDIRECT` with `wrangler.toml`. If your worker is connected to your GitHub repo, configurations in `wrangler.toml` will **override** settings in Cloudflare Dashboard on every push (except for secrets like `API_TOKEN`). To avoid configuration issues, manage bindings and environment variables consistently in `wrangler.toml`.
 
+**Note**: If you prefer not to use `git` or `wrangler.toml`, you can just create a Worker project directly in the Dashboard. Simply copy-paste the `worker-configuration.d.ts` and `index.ts` file into the web editor, save, and then manage bindings and environment variables through the Dashboard interface.
+
 ## Usage
 
 ### Redirect with Short Links (GET)
